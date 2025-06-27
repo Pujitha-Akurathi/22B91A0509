@@ -36,13 +36,13 @@ npm install
 
 # Start the development server
 npm start
-\`\`\`
+``` bash
 
 The app will run at `http://localhost:3000`
 
 ## 🏗 Project Structure
 
-\`\`\`
+```bash
 src/
 ├── components/
 │   ├── URLForm.js          # Form to create shortened URLs
