@@ -125,16 +125,4 @@ Request format:
 - [x] Statistics dashboard
 - [x] Redirection handling
 
-## 🏆 Campus Hiring Test - Affordmed
 
-This project demonstrates proficiency in:
-- Modern React development
-- Material UI component library
-- Client-side routing
-- API integration
-- Data persistence
-- Analytics implementation
-- Error handling
-- Code organization
-
-Built with ❤️ for Affordmed Technologies Campus Hiring Process.
