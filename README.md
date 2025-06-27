@@ -1,4 +1,4 @@
-# Affordmed URL Shortener - Campus Hiring Test
+# URL Shortener App
 
 This is a React-based client-side application to shorten URLs, track statistics, manage redirections, and implement a custom logging system using the Affordmed Logging API.
 
@@ -26,7 +26,7 @@ This is a React-based client-side application to shorten URLs, track statistics,
 
 ## 📦 Installation & Setup
 
-\`\`\`bash
+```bash
 # Clone the repository
 git clone <repository-url>
 cd affordmed-url-shortener
@@ -36,10 +36,9 @@ npm install
 
 # Start the development server
 npm start
-``` bash
 
 The app will run at `http://localhost:3000`
-
+```
 ## 🏗 Project Structure
 
 ```bash
@@ -57,7 +56,7 @@ src/
 ├── utils.js                # Utility functions
 ├── App.js                  # Main app component
 └── index.js                # App entry point
-\`\`\`
+```
 
 ## 🔧 Key Functionalities
 
@@ -89,19 +88,19 @@ src/
 
 The app integrates with the Affordmed Logging API:
 
-\`\`\`
+``` bash
 POST http://20.244.56.144/evaluation-service/logs
-\`\`\`
+```
 
 Request format:
-\`\`\`json
+```bash json
 {
   "stack": "frontend",
   "level": "info",
   "package": "component",
   "message": "URL shortened successfully"
 }
-\`\`\`
+```
 
 ## 🎯 Usage
 
